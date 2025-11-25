@@ -40,9 +40,9 @@ def get_connection():
         )
     except pymysql.Error as e:
         print(f"Error grave de conexión: {e}")
-        return None```
+        return None
 
-### Paso 3: Instalación de Dependencias
+## Paso 3: Instalación de Dependencias
 
 Asegúrate de tener Python instalado.
 Luego, instala las librerías necesarias ejecutando el siguiente comando en tu terminal: Bashpip install PyQt5 pymysql
