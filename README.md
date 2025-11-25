@@ -40,7 +40,7 @@ def get_connection():
         )
     except pymysql.Error as e:
         print(f"Error grave de conexión: {e}")
-        return None
+        return None```
 
 ### Paso 3: Instalación de Dependencias
 
