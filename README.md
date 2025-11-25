@@ -72,9 +72,9 @@ El archivo SQL inicializa cuentas de usuario con diferentes roles para las prueb
 **Caja**: El cajero registra las ventas usando el Tab Nueva Venta, seleccionando productos, cantidades y finalizando la transacción.
 **Administrador**: El dueño/gerente accede a la vista de KPIs para monitorear el desempeño (Venta Total, Ticket Promedio, Quiebres de Stock).
 
-7. Archivos del Proyecto
+### 7. Archivos del Proyecto
 
-**main.py: Código principal de la lógica de negocio y las ventanas.
+**main.py**: Código principal de la lógica de negocio y las ventanas.
 **Sentencias_lapica.sql**: Script para crear y poblar la Base de Datos.
 **admin.ui, ventas.ui, cocina.ui, login.ui**: Archivos de diseño de interfaz gráfica (PyQt/Qt Designer).
 **cocina.ui**: Interfaz gráfica para el módulo de cocina.
