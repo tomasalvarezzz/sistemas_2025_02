@@ -57,10 +57,11 @@ La aplicación se iniciará mostrando la ventana de Login.
 ### 5. Cuentas de Acceso de Prueba
 
 El archivo SQL inicializa cuentas de usuario con diferentes roles para las pruebas:
-Rol            ,  Usuario  ,  Contraseña  ,  Ventana de Acceso
-Administrador  ,  admin    ,  admin123    ,  AdminWindow (KPIs y CRUD Productos)
-Cajero         ,  caja     ,  caja123     ,  CajaWindow (Ventas e Historial)
-Cocina         ,  cocina   ,  cocina123   ,  CocinaWindow (Inventario y Movimientos)
+| Rol | Usuario | Contraseña | Ventana de Acceso |
+| :--- | :--- | :--- | :--- |
+| **Administrador** | `admin` | `admin123` | AdminWindow (KPIs y CRUD Productos) |
+| **Cajero** | `caja` | `caja123` | CajaWindow (Ventas e Historial) |
+| **Cocina** | `cocina` | `cocina123` | CocinaWindow (Inventario y Movimientos) |
 
 **Nota de Seguridad: La contraseña del supervisor requerida para anular ventas en el módulo de Caja es admin123.**
 
