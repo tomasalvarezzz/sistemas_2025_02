@@ -42,6 +42,8 @@ def get_connection():
         print(f"Error grave de conexión: {e}")
         return None
 
+```
+
 ## Paso 3: Instalación de Dependencias
 
 Asegúrate de tener Python instalado.
@@ -52,7 +54,7 @@ Luego, instala las librerías necesarias ejecutando el siguiente comando en tu t
 Una vez configurada la conexión y las dependencias, ejecuta el archivo principal:Bashpython main.py
 La aplicación se iniciará mostrando la ventana de Login.
 
-5. Cuentas de Acceso de Prueba
+### 5. Cuentas de Acceso de Prueba
 
 El archivo SQL inicializa cuentas de usuario con diferentes roles para las pruebas:
 Rol            ,  Usuario  ,  Contraseña  ,  Ventana de Acceso
@@ -62,18 +64,18 @@ Cocina         ,  cocina   ,  cocina123   ,  CocinaWindow (Inventario y Movimien
 
 **Nota de Seguridad: La contraseña del supervisor requerida para anular ventas en el módulo de Caja es admin123.**
 
-6. Secuencia de Uso Típica
+### 6. Secuencia de Uso Típica
 
-Login: El usuario inicia sesión con su rol (caja, cocina o admin).
-Cocina: El personal registra las Mermas/Pérdidas o Compras/Reposiciones en el Tab Movimientos para mantener el stock actual al día.
-Caja: El cajero registra las ventas usando el Tab Nueva Venta, seleccionando productos, cantidades y finalizando la transacción.
-Administrador: El dueño/gerente accede a la vista de KPIs para monitorear el desempeño (Venta Total, Ticket Promedio, Quiebres de Stock).
+**Login**: El usuario inicia sesión con su rol (caja, cocina o admin).
+**Cocina**: El personal registra las Mermas/Pérdidas o Compras/Reposiciones en el Tab Movimientos para mantener el stock actual al día.
+**Caja**: El cajero registra las ventas usando el Tab Nueva Venta, seleccionando productos, cantidades y finalizando la transacción.
+**Administrador**: El dueño/gerente accede a la vista de KPIs para monitorear el desempeño (Venta Total, Ticket Promedio, Quiebres de Stock).
 
 7. Archivos del Proyecto
 
-main.py: Código principal de la lógica de negocio y las ventanas.
-Sentencias_lapica.sql: Script para crear y poblar la Base de Datos.
-admin.ui, ventas.ui, cocina.ui, login.ui: Archivos de diseño de interfaz gráfica (PyQt/Qt Designer).
-cocina.ui: Interfaz gráfica para el módulo de cocina.
-ventas.ui: Interfaz gráfica para el módulo de caja.
-admin.ui: Interfaz gráfica para el módulo de administración.
+**main.py: Código principal de la lógica de negocio y las ventanas.
+**Sentencias_lapica.sql**: Script para crear y poblar la Base de Datos.
+**admin.ui, ventas.ui, cocina.ui, login.ui**: Archivos de diseño de interfaz gráfica (PyQt/Qt Designer).
+**cocina.ui**: Interfaz gráfica para el módulo de cocina.
+**ventas.ui**: Interfaz gráfica para el módulo de caja.
+**admin.ui**: Interfaz gráfica para el módulo de administración.
